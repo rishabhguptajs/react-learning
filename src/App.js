@@ -9,12 +9,14 @@ import EventBind from "./components/EventBind";
 import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
 import StyleSheets from "./components/StyleSheets";
+import Form from "./components/Form";
 import "./App.css";
+import LifeCycleA from "./components/LifeCycleA";
 
 function App() {
   return (
     <div className="App">
-
+      <LifeCycleA />
     </div>
   );
 }
