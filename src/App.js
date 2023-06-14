@@ -1,11 +1,19 @@
 import "./App.css";
-import ParentComp from "./components/ParentComp";
-import PureComp from "./components/PureComp";
+import ErrorBounday from "./components/ErrorBounday";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div className="App">
-      <ParentComp />
+      <ErrorBounday>
+        <Hero heroName= "Batman" />
+      </ErrorBounday>
+      <ErrorBounday>
+        <Hero heroName= "Superman" />
+      </ErrorBounday>
+      <ErrorBounday>
+        <Hero heroName= "Joker" />
+      </ErrorBounday>
     </div>
   );
 }
